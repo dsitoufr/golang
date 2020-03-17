@@ -1,1 +1,22 @@
-toto.
+
+=================================
+mkdir ~/MyProjects/servicesmicro
+cd ~/MyProjects/servicesmicro
+
+
+echo "# microservices" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/dsitoufr/microservices.git
+git push -u origin master
+=============================
+mkdir ~/MyProjects/ethereum_smartcontract
+cd ethereum_smartcontract
+
+echo "# ethereum_smartcontract" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/dsitoufr/ethereum_smartcontract.git
+git push -u origin master
